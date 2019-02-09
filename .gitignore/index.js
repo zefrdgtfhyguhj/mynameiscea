@@ -134,7 +134,7 @@ bot.on('message', message => {
         "https://cdn.discordapp.com/attachments/543745774102642718/543762174515085323/unknown.png",
         "https://cdn.discordapp.com/attachments/543745774102642718/543762286389493771/unknown.png",
         "https://cdn.discordapp.com/attachments/543745774102642718/543762397152673793/unknown.png",
-        "https://cdn.discordapp.com/attachments/543745774102642718/543762602761781249/unknown.png"
+        "https://cdn.discordapp.com/attachments/543745774102642718/543762602761781249/unknown.png",
         "https://cdn.discordapp.com/attachments/543745774102642718/543762816897908737/unknown.png",
         "https://cdn.discordapp.com/attachments/543745774102642718/543763224085004289/unknown.png",
         "https://cdn.discordapp.com/attachments/543745774102642718/543763283065307146/unknown.png",
@@ -148,7 +148,7 @@ bot.on('message', message => {
         "https://cdn.discordapp.com/attachments/543745774102642718/543765042835750922/unknown.png",
         "https://cdn.discordapp.com/attachments/543745774102642718/543765131839012886/unknown.png",
         "https://cdn.discordapp.com/attachments/543745774102642718/543765220103815189/unknown.png",
-        "https://cdn.discordapp.com/attachments/543745774102642718/543765452632096778/unknown.png"
+        "https://cdn.discordapp.com/attachments/543745774102642718/543765452632096778/unknown.png",
         "https://cdn.discordapp.com/attachments/543745774102642718/543765935668985866/unknown.png",
         "https://cdn.discordapp.com/attachments/543745774102642718/543766256868786186/unknown.png",
         "https://cdn.discordapp.com/attachments/543745774102642718/543766451526434846/unknown.png",
