@@ -152,7 +152,7 @@ bot.on('message', message => {
         "https://cdn.discordapp.com/attachments/543745774102642718/543765935668985866/unknown.png",
         "https://cdn.discordapp.com/attachments/543745774102642718/543766256868786186/unknown.png",
         "https://cdn.discordapp.com/attachments/543745774102642718/543766451526434846/unknown.png",
-        "https://cdn.discordapp.com/attachments/543745774102642718/543766573844922381/unknown.png"
+        "https://cdn.discordapp.com/attachments/543745774102642718/543766573844922381/unknown.png",
     ]
         let reponse = (replys[Math.floor(Math.random() * replys.length)])
         var embed = new Discord.RichEmbed()
