@@ -31,17 +31,7 @@ bot.on('message', message => {
         if (args[reponse] === "") return
         message.channel.send(args[reponse])
     }
-    if (message.content.includes("hypologie") || message.content.includes("logie") || message.content.includes("petit clown")|| message.content.includes("minecraft Steve") || message.content.includes("peppa pig") || message.content.includes("grand clown") || message.content.includes("clown") || message.content.includes("🤡")|| message.content.includes("Rgox84KE7iY")|| message.content.includes("https://cdn.discordapp.com/attachments/283656511501238272/511963274850336771/unknown.png")){
-        message.delete()
-        avert[sender.id + message.guild.id].nombre += 1
-        if (avert[sender.id + message.guild.id].nombre == 5){
-            sender.sendMessage("Vous avez utilisé plusieurs mots interdits, attention !")
-            avert[sender.id + message.guild.id].nombre = 0
-        }        
-        fs.writeFile('avert.json', JSON.stringify(avert),(err) =>{
-            if (err) console.error(err)
-        })
-    }
+    
          if ( message.content === prefix+"lesquen"){
         if (cooldown.has()){
             message.delete()
