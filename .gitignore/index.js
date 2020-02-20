@@ -4,6 +4,7 @@ const fs = require('fs')
 
 let prefix = '$'
 let cooldown = new Set()
+let son = new Set()
 
 let avert = JSON.parse(fs.readFileSync('avert.json', 'utf8'))
 bot.login(process.env.TOKEN)
@@ -16,6 +17,26 @@ bot.on('message', message => {
     if (message.content.includes("$userinfo @everyone")) return
     let sender = message.author
     let msg = message.content.toUpperCase()
+    if (message.content === prefix + "aurevoir" ){
+        if (son.has()){
+            message.delete()
+            return
+        }
+        var nom = message.content
+        message.channel.bulkDelete(1)
+        const vocal = message.member.voiceChannel
+        if(!vocal)return
+        son.add()
+        setTimeout(() => {
+            son.delete()
+        }, 5000)
+    vocal.join()
+    .then(connection => {
+        const dispatcher = connection.playFile('./'+ nom+'.wav')
     
+    .on('end', () => {
+        vocal.leave()
+    })}
+    )}    
     
 })
